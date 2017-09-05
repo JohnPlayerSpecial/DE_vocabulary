@@ -44,6 +44,7 @@ def sendNews(bot, job):
 			caption = caption[0:197] + "..."
 		bot.sendPhoto(chat_id = 31923577, photo = photo, caption = caption)
 		i = (i + 1) % len(bsObj)
+		time.sleep(1)
 
 j = updater.job_queue
 

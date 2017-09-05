@@ -8,6 +8,7 @@ import time
 from textblob import TextBlob
 from random import shuffle
 from urllib.request import urlopen
+import os
 
 HOUR_I_WANNA_GET_MESSAGE = int( os.environ['hour'] )
 MINUTES_I_WANNA_GET_MESSAGE = int( os.environ['minute'] )
